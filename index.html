@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>Mario Kart Animations</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="sky">
+    <img id="cloud" src="/img/cloud.png" alt="">
+    <img id="cloud2" src="/img/cloud.png" alt="">
+  </div>
+  <div class="grass">
+
+    <center>
+
+    
+    <button onmousedown="autoLeft()"
+            onmouseup="stopLeft()" 
+            onmouseleave="stopLeft()" 
+            onclick="left()"> < 
+    </button>
+
+
+    <button onmousedown="autoRight()"
+            onmouseup="stopRight()" 
+            onmouseleave="stopRight()"
+            onclick="right()"> > 
+    </button>
+  </center>
+    
+
+  </div>
+  <div class="road">
+
+    <div class="mario">
+      <img id="mar" src="mario.png" alt="">
+    </div>
+
+    <div class="lines"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>

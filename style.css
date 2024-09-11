@@ -1,0 +1,95 @@
+/*// BASE STYLES //*/
+
+html, body{
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.grass, .sky, .road{
+  position: relative;
+}
+
+.sky{
+  height: 40%;
+  background: skyblue;
+  position: relative;
+}
+
+.grass{
+  height: 30%;
+  background: seagreen;
+}
+
+.road{
+  height: 30%;
+  background: dimgrey;
+  box-sizing: border-box;
+  border-top: 10px solid grey;
+  border-bottom: 10px solid grey;
+  width: 100%;
+}
+
+.lines{
+  box-sizing: border-box;
+  border: 5px dashed #fff;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  top: 45%;
+}
+
+.mario img{
+  position: absolute;
+  top: -60px;
+  left: 0px;
+  transition: left 0.5s ease-in-out;
+  /* animation-name: drive;
+  animation-duration: 3s;
+  animation-fill-mode: forwards; */
+
+}
+
+
+button{
+  height: 3rem;
+  width: 4rem;
+  font-size: larger;
+  border-radius: .25rem;
+}
+#cloud{
+  position: absolute;
+  left: 30%;
+  transform: rotate(180deg);
+}
+#cloud2{
+  position: absolute;
+  left: 80%;
+  top: 20%;
+  transform: rotate(180deg);
+  scale: .5;
+
+}
+
+/*// ELEMENTS TO ANIMATE //*/
+
+/* @keyframes drive {
+
+  from {
+    transform: translateX(0);
+  }
+
+  to{transform: translateX(600px);}
+
+
+} */
+
+/*// KEYFRAMES //*/
+
+
+
+
+
+
+
